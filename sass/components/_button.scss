@@ -1,0 +1,23 @@
+.button {
+  background-color: $mainBlueColor;
+  width: 120px;
+  height: 50px;
+  left: 1185px;
+  top: 25px;
+  border-radius: 10px;
+  font-family: $mainFontAirbnb;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  color: $secondaryBackgroundColor;
+
+  transition: color 250ms $animationTimingFunction,
+    background-color 250ms $animationTimingFunction;
+
+  &:hover,
+  &:focus {
+    color: $mainBlueColor;
+    background-color: $secondaryBackgroundColor;
+  }
+}
