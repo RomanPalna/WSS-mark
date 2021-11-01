@@ -408,6 +408,18 @@ body {
 .button:hover, .button:focus {
   color: #3685fb;
   background-color: #ffffff;
+  border: 1px solid #3685fb;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  background-color: #ffffff;
+  z-index: 1;
 }
 
 .header {
@@ -420,6 +432,11 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding-top: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  border-bottom: 1px solid #ececec;
 }
 .header__logo {
   width: 106px;
@@ -438,10 +455,34 @@ body {
   font-weight: normal;
   font-size: 16px;
   color: #002248;
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header__link:hover, .header__link:focus {
   color: #3685fb;
 }
 .header__nav--item:not(:last-child) {
   margin-right: 40px;
+}
+
+.booknow {
+  display: block;
+  margin-top: 100px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.booknow__text {
+  font-family: Airbnb Cereal App;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  color: #00b3a0;
+}
+.booknow__title {
+  font-family: Eksell Display;
+  font-style: normal;
+  font-weight: 550;
+  font-size: 60px;
+  line-height: 72px;
 }/*# sourceMappingURL=main.css.map */

@@ -19,5 +19,6 @@
   &:focus {
     color: $mainBlueColor;
     background-color: $secondaryBackgroundColor;
+    border: 1px solid $mainBlueColor;
   }
 }

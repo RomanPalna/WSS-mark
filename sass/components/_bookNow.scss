@@ -1,0 +1,23 @@
+.booknow {
+  display: block;
+  margin-top: 100px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  &__text {
+    font-family: $mainFontAirbnb;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: $secondaryTitleColor;
+  }
+
+  &__title {
+    font-family: Eksell Display;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 60px;
+    line-height: 72px;
+  }
+}
