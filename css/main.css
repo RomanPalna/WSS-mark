@@ -408,4 +408,40 @@ body {
 .button:hover, .button:focus {
   color: #3685fb;
   background-color: #ffffff;
+}
+
+.header {
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header__logo {
+  width: 106px;
+  height: 45px;
+}
+.header__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.header__link {
+  font-family: Airbnb Cereal App;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #002248;
+}
+.header__link:hover, .header__link:focus {
+  color: #3685fb;
+}
+.header__nav--item:not(:last-child) {
+  margin-right: 40px;
 }/*# sourceMappingURL=main.css.map */
