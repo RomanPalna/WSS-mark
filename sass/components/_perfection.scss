@@ -1,0 +1,110 @@
+.perfection {
+  padding-bottom: 120px;
+  &__discription {
+    display: inline-block;
+    margin-left: 436px;
+    margin-right: 436px;
+  }
+
+  &__subs {
+    font-family: $mainFontAirbnb;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: $secondaryTitleColor;
+    padding-top: 193px;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  &__title {
+    font-family: $EksellDisplay;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 52px;
+    text-align: center;
+    text-transform: capitalize;
+    color: $titleBlueDarkColor;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+
+  &__text {
+    font-family: $mainFontAirbnb;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #697687;
+    margin: 0;
+    padding-bottom: 70px;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &__list--item:not(:last-child) {
+    margin-right: 30px;
+  }
+
+  &__list--item {
+    display: inline-block;
+    width: 370px;
+    height: 395px;
+    align-content: center;
+
+    border: 2px solid #f8f8f8;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+
+  &__list--svg {
+    margin-top: 74px;
+    margin-left: 132px;
+    margin-right: 132px;
+    margin-bottom: 50px;
+    width: 100px;
+    height: 100px;
+  }
+
+  &__list--title {
+    font-family: $mainFontAirbnb;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: $titleBlueDarkColor;
+
+    margin-bottom: 20px;
+    margin-left: 46px;
+    margin-right: 46px;
+  }
+
+  &__list--text {
+    font-family: $mainFontAirbnb;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #697687;
+
+    padding-bottom: 70px;
+    margin-top: 0;
+    margin-right: 46px;
+    margin-left: 46px;
+  }
+
+  &__list--discription {
+    display: inline-block;
+  }
+}

@@ -642,4 +642,108 @@ header {
 .navigation__input {
   border: none;
   width: 160px;
+}
+
+.perfection {
+  padding-bottom: 120px;
+}
+.perfection__discription {
+  display: inline-block;
+  margin-left: 436px;
+  margin-right: 436px;
+}
+.perfection__subs {
+  font-family: Airbnb Cereal App, Sans-Serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  color: #00b3a0;
+  padding-top: 193px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+.perfection__title {
+  font-family: Eksell Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 52px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #002248;
+  margin: 0;
+  margin-bottom: 20px;
+}
+.perfection__text {
+  font-family: Airbnb Cereal App, Sans-Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: #697687;
+  margin: 0;
+  padding-bottom: 70px;
+}
+.perfection__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.perfection__list--item:not(:last-child) {
+  margin-right: 30px;
+}
+.perfection__list--item {
+  display: inline-block;
+  width: 370px;
+  height: 395px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  border: 2px solid #f8f8f8;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 10px;
+}
+.perfection__list--svg {
+  margin-top: 74px;
+  margin-left: 132px;
+  margin-right: 132px;
+  margin-bottom: 50px;
+  width: 100px;
+  height: 100px;
+}
+.perfection__list--title {
+  font-family: Airbnb Cereal App, Sans-Serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #002248;
+  margin-bottom: 20px;
+  margin-left: 46px;
+  margin-right: 46px;
+}
+.perfection__list--text {
+  font-family: Airbnb Cereal App, Sans-Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: #697687;
+  padding-bottom: 70px;
+  margin-top: 0;
+  margin-right: 46px;
+  margin-left: 46px;
+}
+.perfection__list--discription {
+  display: inline-block;
 }/*# sourceMappingURL=main.css.map */
