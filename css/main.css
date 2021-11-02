@@ -498,7 +498,7 @@ header {
 }
 .hero__img--first {
   position: absolute;
-  left: 300px;
+  left: 340px;
   top: 180px;
 }
 .hero__text {
@@ -547,4 +547,62 @@ header {
   color: #ffffff;
   width: 170px;
   height: 60px;
+}
+
+.navigation {
+  position: absolute;
+}
+.navigation__form {
+  position: relative;
+  left: 25%;
+  top: -72px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 980px;
+  height: 144px;
+  background: #fcfcfc;
+  -webkit-box-shadow: 0px 40px 170px rgba(0, 34, 72, 0.07);
+          box-shadow: 0px 40px 170px rgba(0, 34, 72, 0.07);
+  border-radius: 30px;
+}
+.navigation__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: Airbnb Cereal App;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #ffffff;
+  width: 210px;
+  height: 144px;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: inherit;
+  border-top-right-radius: inherit;
+}
+.navigation__button--text {
+  margin-top: 15px;
+}
+.navigation__button--svg:hover, .navigation__button--svg:focus {
+  color: #3685fb;
 }/*# sourceMappingURL=main.css.map */

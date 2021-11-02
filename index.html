@@ -71,8 +71,8 @@
         </div>
       </section>
 
-      <section>
-        <form>
+      <section class="navigation">
+        <form class="navigation__form">
           <label for="location"
             >Location
             <input
@@ -119,7 +119,15 @@
             </datalist>
           </label>
 
-          <button type="Submit">Book Now</button>
+          <button type="Submit" class="button navigation__button">
+            <svg width="22" height="24">
+              <use
+                class="navigation__button--svg"
+                href="./icons/symbol-defs.svg#icon-booknow"
+              ></use>
+            </svg>
+            <span class="navigation__button--text">Book Now</span>
+          </button>
         </form>
       </section>
 

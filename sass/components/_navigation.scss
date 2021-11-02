@@ -1,0 +1,48 @@
+.navigation {
+  position: absolute;
+
+  &__form {
+    position: relative;
+    left: 25%;
+    top: -72px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 980px;
+    height: 144px;
+
+    background: #fcfcfc;
+    box-shadow: 0px 40px 170px rgba(0, 34, 72, 0.07);
+    border-radius: 30px;
+  }
+  &__button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: $mainFontAirbnb;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: $secondaryBackgroundColor;
+    width: 210px;
+    height: 144px;
+
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: inherit;
+    border-top-right-radius: inherit;
+  }
+
+  &__button--text {
+    margin-top: 15px;
+  }
+
+  &__button--svg:hover,
+  &__button--svg:focus {
+    color: $mainBlueColor;
+  }
+}
