@@ -746,4 +746,33 @@ header {
 }
 .perfection__list--discription {
   display: inline-block;
+}
+
+.location {
+  background-color: #f8f8f8;
+}
+.location__subs {
+  font-family: Airbnb Cereal App, Sans-Serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 18px;
+  color: #00b3a0;
+}
+.location__title {
+  font-family: Eksell Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 52px;
+  text-transform: capitalize;
+  color: #002248;
+}
+.location__text {
+  font-family: Airbnb Cereal App, Sans-Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: #697687;
 }/*# sourceMappingURL=main.css.map */
