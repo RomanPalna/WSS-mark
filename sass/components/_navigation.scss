@@ -7,7 +7,7 @@
     top: -72px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 980px;
     height: 144px;
 
@@ -44,5 +44,38 @@
   &__button--svg:hover,
   &__button--svg:focus {
     color: $mainBlueColor;
+  }
+
+  &__label {
+    font-family: $mainFontAirbnb;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    color: $titleBlueDarkColor;
+    margin-bottom: 21px;
+  }
+
+  &__label:first-child {
+    margin-left: 72px;
+  }
+
+  &__label:after {
+    position: relative;
+    content: '';
+    display: inline-flex;
+    width: 16px;
+    height: 16px;
+    background-image: url(../../icons/chevron-down.svg);
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: -20px;
+    left: -20px;
+  }
+
+  &__input {
+    border: none;
+    width: 160px;
   }
 }

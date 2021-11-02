@@ -40,6 +40,13 @@ button {
   cursor: pointer;
 }
 
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -396,7 +403,7 @@ body {
   left: 1185px;
   top: 25px;
   border-radius: 10px;
-  font-family: Airbnb Cereal App;
+  font-family: Airbnb Cereal App, Sans-Serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -450,7 +457,7 @@ header {
       justify-content: space-around;
 }
 .header__link {
-  font-family: Airbnb Cereal App;
+  font-family: Airbnb Cereal App, Sans-Serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -502,7 +509,7 @@ header {
   top: 180px;
 }
 .hero__text {
-  font-family: Airbnb Cereal App;
+  font-family: Airbnb Cereal App, Sans-Serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -521,7 +528,7 @@ header {
   margin: 0;
 }
 .hero__subs {
-  font-family: Airbnb Cereal App;
+  font-family: Airbnb Cereal App, Sans-Serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -538,7 +545,7 @@ header {
   padding-right: 135px;
 }
 .hero__button {
-  font-family: Airbnb Cereal App;
+  font-family: Airbnb Cereal App, Sans-Serif;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -562,9 +569,8 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   width: 980px;
   height: 144px;
   background: #fcfcfc;
@@ -586,7 +592,7 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-family: Airbnb Cereal App;
+  font-family: Airbnb Cereal App, Sans-Serif;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -605,4 +611,35 @@ header {
 }
 .navigation__button--svg:hover, .navigation__button--svg:focus {
   color: #3685fb;
+}
+.navigation__label {
+  font-family: Airbnb Cereal App, Sans-Serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 20px;
+  color: #002248;
+  margin-bottom: 21px;
+}
+.navigation__label:first-child {
+  margin-left: 72px;
+}
+.navigation__label:after {
+  position: relative;
+  content: "";
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 16px;
+  height: 16px;
+  background-image: url(../../icons/chevron-down.svg);
+  border-radius: 8px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: -20px;
+  left: -20px;
+}
+.navigation__input {
+  border: none;
+  width: 160px;
 }/*# sourceMappingURL=main.css.map */

@@ -36,3 +36,12 @@ button {
   background-color: transparent;
   cursor: pointer;
 }
+
+// turn off arrows in input type="number"
+
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}

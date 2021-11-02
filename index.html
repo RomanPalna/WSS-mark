@@ -73,9 +73,10 @@
 
       <section class="navigation">
         <form class="navigation__form">
-          <label for="location"
+          <label for="location" class="navigation__label"
             >Location
             <input
+              class="navigation__input"
               type="text"
               list="location-choice"
               id="location"
@@ -87,15 +88,17 @@
               <option value="France"></option></datalist
           ></label>
 
-          <label for="your-category"
-            >Your Category
+          <label for="your-category" class="navigation__label">
+            Your Category
             <input
+              class="navigation__input"
               type="text"
               list="category-choice"
               id="your-category"
               name="category"
               placeholder="Select"
             />
+
             <datalist id="category-choice">
               <option value="Trip"></option>
               <option value="Group Trip"></option>
@@ -103,9 +106,10 @@
             </datalist>
           </label>
 
-          <label for="total-person"
+          <label for="total-person" class="navigation__label"
             >Total Person
             <input
+              class="navigation__input"
               type="number"
               list="person-list"
               id="total-person"
