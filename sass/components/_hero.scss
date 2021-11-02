@@ -1,0 +1,90 @@
+.hero {
+  display: flex;
+  margin-top: 100px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: $backgroundColor;
+  height: 803px;
+
+  &__imgset {
+    display: flex;
+    position: relative;
+    max-width: 569px;
+    max-height: 597px;
+    padding-left: 135px;
+    padding-right: 35px;
+  }
+
+  &__img {
+    border: 10px solid $secondaryBackgroundColor;
+    border-radius: 570px;
+    object-fit: cover;
+    top: 150px;
+  }
+
+  &__img:not(:last-child) {
+    height: 540px;
+    width: 712px;
+  }
+
+  &__img--first {
+    position: absolute;
+    left: 300px;
+    top: 180px;
+  }
+
+  &__text {
+    font-family: $mainFontAirbnb;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: $secondaryTitleColor;
+
+    padding-top: 135px;
+    margin-bottom: 16px;
+    margin-top: 0px;
+  }
+
+  &__title {
+    font-family: Eksell Display;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 60px;
+    line-height: 72px;
+    margin: 0;
+  }
+
+  &__subs {
+    font-family: $mainFontAirbnb;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #697687;
+  }
+
+  &__svg {
+    display: inline-block;
+    width: 41px;
+    height: 41px;
+  }
+
+  &__discription {
+    padding-left: 247px;
+    padding-right: 135px;
+  }
+
+  &__button {
+    font-family: $mainFontAirbnb;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: $secondaryBackgroundColor;
+
+    width: 170px;
+    height: 60px;
+  }
+}
