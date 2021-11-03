@@ -1,0 +1,137 @@
+.customer {
+  padding: 120px 132px 238px;
+  background-image: url(../../images/Vector.png);
+  background-color: $backgroundColor;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  &__about {
+    text-align: center;
+  }
+
+  &__subs {
+    font-family: $mainFontAirbnb;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: $secondaryTitleColor;
+    margin: 0 0 10px;
+  }
+
+  &__title {
+    font-family: $EksellDisplay;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 52px;
+    text-transform: capitalize;
+    color: #002248;
+    margin: 0 0 20px;
+  }
+
+  &__text {
+    display: inline-block;
+    width: 583px;
+    font-family: $mainFontAirbnb;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #697687;
+    margin: 0 0 200px;
+  }
+
+  &__quote {
+    position: relative;
+    width: 500px;
+    height: 230px;
+    background: $secondaryBackgroundColor;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 80px 50px 30px;
+
+    &--text {
+      position: relative;
+      font-family: $mainFontAirbnb;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 24px;
+      color: #697687;
+      margin: 0 0 14px;
+    }
+
+    &--text::before {
+      content: '';
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      background-image: url(../../icons/quotation.svg);
+      left: 47%;
+      bottom: 85px;
+    }
+
+    &--name {
+      position: relative;
+      font-family: $mainFontAirbnb;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 18px;
+      color: $titleBlueDarkColor;
+      margin: 0 0 2px;
+    }
+
+    &--name::before {
+      content: '';
+      display: block;
+      position: absolute;
+      width: 6px;
+      height: 6px;
+      background: rgba(105, 118, 135, 0.3);
+      border-radius: 6px;
+      bottom: -71px;
+      left: 80%;
+    }
+
+    &--job {
+      font-family: $mainFontAirbnb;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 10px;
+      line-height: 14px;
+      color: #697687;
+      margin: 0;
+    }
+  }
+
+  &__quote::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 6px;
+    border-radius: 6px;
+    background-color: $mainBlueColor;
+    bottom: -10%;
+    left: 50%;
+  }
+
+  &__quote::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background: rgba(105, 118, 135, 0.3);
+    border-radius: 6px;
+    bottom: -10%;
+    left: 48%;
+  }
+}
