@@ -1052,11 +1052,12 @@ header {
 }
 
 .customer {
+  position: relative;
   padding: 120px 132px 238px;
   background-image: url(../../images/Vector.png);
   background-color: #f8f8f8;
   background-repeat: no-repeat;
-  background-position: bottom center;
+  background-position: bottom 40px center;
   margin-left: auto;
   margin-right: auto;
 }
@@ -1174,4 +1175,100 @@ header {
   border-radius: 6px;
   bottom: -10%;
   left: 48%;
+}
+.customer__image--1 {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: #ffffff;
+  border: 3px solid #ffffff;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 100px;
+  right: 14.2%;
+  top: 85.85%;
+}
+.customer__image--2 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background: #ffffff;
+  border: 3px solid #ffffff;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 100px;
+  right: 7.96%;
+  top: 57.68%;
+}
+.customer__image--3 {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: #ffffff;
+  border: 3px solid #ffffff;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 100px;
+  right: 19.16%;
+  top: 46.77%;
+}
+.customer__image--4 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: #ffffff;
+  border: 3px solid #ffffff;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 100px;
+  right: 45.68%;
+  top: 33.86%;
+}
+.customer__image--5 {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: #ffffff;
+  border: 3px solid #ffffff;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 100px;
+  right: 75.11%;
+  top: 79.97%;
+}
+.customer__image--6 {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: #ffffff;
+  border: 3px solid #ffffff;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 100px;
+  right: 77.07%;
+  top: 57.54%;
+}
+.customer__image--7 {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: #ffffff;
+  border: 3px solid #ffffff;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 100px;
+  right: 78.61%;
+  top: 34.19%;
+}
+.customer__image--8 {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: #ffffff;
+  border: 3px solid #ffffff;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 100px;
+  right: 86.48%;
+  top: 70.62%;
 }/*# sourceMappingURL=main.css.map */
