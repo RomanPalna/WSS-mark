@@ -1,0 +1,78 @@
+.guideline {
+  position: relative;
+  height: 968px;
+  background-image: url(../../images/background1.jpg);
+  background-repeat: no-repeat;
+
+  &__section {
+    z-index: 6;
+    position: absolute;
+    width: 462px;
+    right: 170px;
+    top: 170px;
+  }
+
+  &__title {
+    font-family: $EksellDisplay;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 52px;
+    text-transform: capitalize;
+    color: $titleBlueDarkColor;
+    margin: 0 0 20px 0;
+    z-index: 5;
+  }
+
+  &__text {
+    font-family: $mainFontAirbnb;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #697687;
+    margin: 0 0 50px 0;
+  }
+
+  &__background--2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+  }
+
+  &__background--3 {
+    position: absolute;
+    right: 0;
+    bottom: 184px;
+    z-index: 1;
+  }
+
+  &__background--4 {
+    position: absolute;
+    bottom: 22%;
+    right: 42%;
+    z-index: 2;
+  }
+
+  &__button {
+    width: 170px;
+    height: 60px;
+    font-family: $mainFontAirbnb;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+.guidline__subscription {
+  font-family: $mainFontAirbnb;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  color: $secondaryTitleColor;
+
+  margin: 0 0 10px 0;
+}
