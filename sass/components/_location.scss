@@ -1,5 +1,6 @@
 .location {
   background-color: $backgroundColor;
+  margin: 0;
   &__subs {
     font-family: $mainFontAirbnb;
     font-style: normal;
@@ -7,6 +8,9 @@
     font-size: 16px;
     line-height: 18px;
     color: $secondaryTitleColor;
+    padding-top: 120px;
+    margin-left: 135px;
+    margin-bottom: 10px;
   }
 
   &__title {
@@ -17,14 +21,35 @@
     line-height: 52px;
     text-transform: capitalize;
     color: $titleBlueDarkColor;
+    margin-top: 0px;
+    margin-left: 135px;
+    margin-bottom: 20px;
   }
 
   &__text {
+    display: inline-block;
+    max-width: 538px;
     font-family: $mainFontAirbnb;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 28px;
     color: #697687;
+    margin-left: 135px;
+    margin-bottom: 0px;
+  }
+
+  &__group {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__group--button {
+    margin-right: 135px;
+  }
+
+  &__button {
+    width: 50px;
+    height: 50px;
   }
 }
