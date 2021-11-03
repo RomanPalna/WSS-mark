@@ -1,6 +1,11 @@
 .location {
   background-color: $backgroundColor;
   margin: 0;
+  padding-left: 135px;
+  padding-right: 135px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+
   &__subs {
     font-family: $mainFontAirbnb;
     font-style: normal;
@@ -8,8 +13,7 @@
     font-size: 16px;
     line-height: 18px;
     color: $secondaryTitleColor;
-    padding-top: 120px;
-    margin-left: 135px;
+
     margin-bottom: 10px;
   }
 
@@ -22,7 +26,7 @@
     text-transform: capitalize;
     color: $titleBlueDarkColor;
     margin-top: 0px;
-    margin-left: 135px;
+
     margin-bottom: 20px;
   }
 
@@ -35,8 +39,8 @@
     font-size: 16px;
     line-height: 28px;
     color: #697687;
-    margin-left: 135px;
-    margin-bottom: 0px;
+
+    margin-bottom: 70px;
   }
 
   &__group {
@@ -44,12 +48,80 @@
     justify-content: space-between;
   }
 
-  &__group--button {
-    margin-right: 135px;
-  }
-
   &__button {
     width: 50px;
     height: 50px;
+  }
+
+  &__slides {
+    display: flex;
+    justify-content: space-between;
+
+    &--item:not(:last-child) {
+      margin-right: 30px;
+    }
+
+    &--item {
+      position: relative;
+    }
+
+    &--img {
+      max-width: 380px;
+      max-height: 500px;
+
+      border: 6px solid $secondaryBackgroundColor;
+      border-radius: 10px;
+    }
+
+    &--discr {
+      position: absolute;
+      bottom: 30px;
+      left: 30px;
+      display: flex;
+      justify-content: space-between;
+
+      width: 310px;
+      height: 100px;
+      padding-top: 24px;
+      padding-bottom: 24px;
+      padding-left: 20px;
+      padding-right: 20px;
+      background: rgba(0, 34, 72, 0.3);
+      backdrop-filter: blur(20px);
+      border-radius: 10px;
+    }
+
+    &--name {
+      font-family: $EksellDisplay;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 20px;
+      color: $secondaryBackgroundColor;
+      padding-bottom: 10px;
+      margin: 0;
+    }
+
+    &--place {
+      font-family: $mainFontAirbnb;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 28px;
+      color: $secondaryBackgroundColor;
+      margin: 0;
+    }
+
+    &--cost {
+      font-family: $mainFontAirbnb;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 24px;
+      text-align: right;
+      color: $secondaryBackgroundColor;
+      margin: 0;
+      padding-top: 10px;
+    }
   }
 }
