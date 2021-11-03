@@ -22,6 +22,7 @@ a {
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 *,
@@ -430,6 +431,7 @@ header {
 }
 
 .header {
+  position: sticky;
   height: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1423,6 +1425,10 @@ header {
   width: 40px;
   height: 40px;
 }
+.footer__social--svg:hover, .footer__social--svg:focus {
+  -webkit-animation: animate 1000ms infinite 200ms;
+          animation: animate 1000ms infinite 200ms;
+}
 .footer__credit {
   display: inline-block;
   margin: 30px auto 50px;
@@ -1433,4 +1439,34 @@ header {
   line-height: 14px;
   text-align: center;
   color: #697687;
+}
+
+@-webkit-keyframes animate {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.25);
+            transform: scale(1.25);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes animate {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.25);
+            transform: scale(1.25);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
 }/*# sourceMappingURL=main.css.map */
