@@ -873,7 +873,7 @@ header {
 
 .guideline {
   position: relative;
-  height: 968px;
+  height: 690px;
   background-image: url(../../images/background1.jpg);
   background-repeat: no-repeat;
 }
@@ -913,12 +913,12 @@ header {
 .guideline__background--3 {
   position: absolute;
   right: 0;
-  bottom: 184px;
+  bottom: -184px;
   z-index: 1;
 }
 .guideline__background--4 {
   position: absolute;
-  bottom: 22%;
+  bottom: -60px;
   right: 42%;
   z-index: 2;
 }
@@ -940,4 +940,113 @@ header {
   line-height: 18px;
   color: #00b3a0;
   margin: 0 0 10px 0;
+}
+
+.family {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 120px 135px;
+}
+.family__about {
+  width: 512px;
+}
+.family__subs {
+  font-family: Airbnb Cereal App, Sans-Serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  color: #00b3a0;
+  margin: 15px 0 10px;
+}
+.family__title {
+  font-family: Eksell Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 52px;
+  text-transform: capitalize;
+  color: #002248;
+  margin: 0 0 20px;
+}
+.family__text {
+  font-family: Airbnb Cereal App, Sans-Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: #697687;
+  margin: 0 0 50px;
+}
+.family__statistic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 314px;
+  height: 286px;
+}
+.family__statistic--item {
+  border: 2px solid #f8f8f8;
+  border-radius: 10px;
+  width: 150px;
+  height: 130px;
+  font-family: Airbnb Cereal App, Sans-Serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 28px;
+  color: #002248;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 13px 26px 0;
+}
+.family__statistic--item:nth-child(even) {
+  margin: 0 0 26px;
+}
+.family__statistic--number {
+  font-family: Eksell Display;
+  font-style: normal;
+  font-weight: 550;
+  font-size: 32px;
+  line-height: 34px;
+  text-align: center;
+  color: #3685fb;
+  margin: 0 0 4px;
+}
+.family__imgset {
+  position: relative;
+  margin: 0 0 0 auto;
+}
+.family__imgset--big {
+  width: 400px;
+  height: 610px;
+  background: #001835;
+  border: 10px solid #ffffff;
+  border-radius: 570px;
+  -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
+          transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.family__imgset--little {
+  position: absolute;
+  top: 211px;
+  left: -178px;
+  width: 320px;
+  height: 456px;
+  background: #001835;
+  border: 10px solid #ffffff;
+  border-radius: 570px;
+  -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
+          transform: matrix(-1, 0, 0, 1, 0, 0);
 }/*# sourceMappingURL=main.css.map */

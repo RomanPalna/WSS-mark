@@ -1,6 +1,6 @@
 .guideline {
   position: relative;
-  height: 968px;
+  height: 690px;
   background-image: url(../../images/background1.jpg);
   background-repeat: no-repeat;
 
@@ -44,13 +44,13 @@
   &__background--3 {
     position: absolute;
     right: 0;
-    bottom: 184px;
+    bottom: -184px;
     z-index: 1;
   }
 
   &__background--4 {
     position: absolute;
-    bottom: 22%;
+    bottom: -60px;
     right: 42%;
     z-index: 2;
   }

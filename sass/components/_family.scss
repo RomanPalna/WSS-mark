@@ -1,0 +1,106 @@
+.family {
+  display: flex;
+  padding: 120px 135px;
+
+  &__about {
+    width: 512px;
+  }
+
+  &__subs {
+    font-family: $mainFontAirbnb;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: $secondaryTitleColor;
+    margin: 15px 0 10px;
+  }
+
+  &__title {
+    font-family: $EksellDisplay;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 52px;
+    text-transform: capitalize;
+    color: $titleBlueDarkColor;
+    margin: 0 0 20px;
+  }
+
+  &__text {
+    font-family: $mainFontAirbnb;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #697687;
+    margin: 0 0 50px;
+  }
+
+  &__statistic {
+    display: flex;
+    flex-wrap: wrap;
+    width: 314px;
+    height: 286px;
+
+    &--item {
+      border: 2px solid #f8f8f8;
+      border-radius: 10px;
+      width: 150px;
+      height: 130px;
+      font-family: $mainFontAirbnb;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 28px;
+      color: $titleBlueDarkColor;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 0 13px 26px 0;
+    }
+
+    &--item:nth-child(even) {
+      margin: 0 0 26px;
+    }
+
+    &--number {
+      font-family: $EksellDisplay;
+      font-style: normal;
+      font-weight: 550;
+      font-size: 32px;
+      line-height: 34px;
+      text-align: center;
+      color: $mainBlueColor;
+      margin: 0 0 4px;
+    }
+  }
+
+  &__imgset {
+    position: relative;
+    margin: 0 0 0 auto;
+
+    &--big {
+      width: 400px;
+      height: 610px;
+      background: #001835;
+      border: 10px solid #ffffff;
+      border-radius: 570px;
+      transform: matrix(-1, 0, 0, 1, 0, 0);
+    }
+
+    &--little {
+      position: absolute;
+      top: 211px;
+      left: -178px;
+
+      width: 320px;
+      height: 456px;
+      background: #001835;
+      border: 10px solid #ffffff;
+      border-radius: 570px;
+      transform: matrix(-1, 0, 0, 1, 0, 0);
+    }
+  }
+}
