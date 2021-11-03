@@ -1,0 +1,35 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+
+  &__container {
+    display: flex;
+    justify-content: space-around;
+    width: 1440px;
+  }
+
+  &__social {
+    display: flex;
+
+    &--item:not(:last-child) {
+      margin: 0 12px 0 0;
+    }
+
+    &--svg {
+      width: 40px;
+      height: 40px;
+    }
+  }
+
+  &__credit {
+    display: inline-block;
+    margin: 30px auto 50px;
+    font-family: $mainFontAirbnb;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    color: #697687;
+  }
+}

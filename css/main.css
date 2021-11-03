@@ -426,7 +426,7 @@ header {
   -webkit-transform: translate(-50%);
           transform: translate(-50%);
   background-color: #ffffff;
-  z-index: 6;
+  z-index: 7;
 }
 
 .header {
@@ -477,6 +477,7 @@ header {
   display: -ms-flexbox;
   display: flex;
   margin-top: 100px;
+  padding-top: 30px;
   padding-left: 15px;
   padding-right: 15px;
   background-color: #f8f8f8;
@@ -1271,4 +1272,165 @@ header {
   border-radius: 100px;
   right: 86.48%;
   top: 70.62%;
+}
+
+.social {
+  padding: 120px 0;
+  max-height: 898px;
+}
+.social__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+.social__subs {
+  font-family: Airbnb Cereal App, Sans-Serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  color: #00b3a0;
+  margin: 0 0 10px;
+}
+.social__title {
+  font-family: Eksell Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 52px;
+  text-transform: capitalize;
+  color: #002248;
+  margin: 0 0 62px;
+}
+.social__description {
+  width: 462px;
+}
+.social__button {
+  width: 170px;
+  height: 60px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 92px;
+}
+.social__instagram {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.social__instagram--img:not(:last-child) {
+  margin: 0;
+}
+.social__instagram--img:nth-child(odd) {
+  border: 10px solid #ffffff;
+  border-radius: 570px;
+  -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
+          transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.social__instagram--img:nth-child(even) {
+  border: 10px solid #ffffff;
+  border-radius: 30px;
+  -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
+          transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.social__instagram--img:last-child {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+.social__instagram--img:first-child {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.contact {
+  padding: 50px 220px 100px;
+}
+.contact__description {
+  padding: 70px 80px;
+  background-color: #f3f8ff;
+  background-image: url(../../images/happyWoman.png);
+  background-repeat: no-repeat;
+  background-position: right 50px bottom;
+}
+.contact__subs {
+  font-family: Airbnb Cereal App, Sans-Serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  color: #00b3a0;
+  margin: 0 0 10px;
+}
+.contact__title {
+  font-family: Eksell Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 52px;
+  line-height: 60px;
+  text-transform: capitalize;
+  color: #002248;
+  width: 409px;
+  margin: 0 0 30px;
+}
+.contact__button {
+  width: 170px;
+  height: 60px;
+  font-family: Airbnb Cereal App, Sans-Serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.footer__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 1440px;
+}
+.footer__social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.footer__social--item:not(:last-child) {
+  margin: 0 12px 0 0;
+}
+.footer__social--svg {
+  width: 40px;
+  height: 40px;
+}
+.footer__credit {
+  display: inline-block;
+  margin: 30px auto 50px;
+  font-family: Airbnb Cereal App, Sans-Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  color: #697687;
 }/*# sourceMappingURL=main.css.map */

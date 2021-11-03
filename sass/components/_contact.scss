@@ -1,0 +1,43 @@
+.contact {
+  padding: 50px 220px 100px;
+
+  &__description {
+    padding: 70px 80px;
+    background-color: #f3f8ff;
+    background-image: url(../../images/happyWoman.png);
+    background-repeat: no-repeat;
+    background-position: right 50px bottom;
+  }
+
+  &__subs {
+    font-family: $mainFontAirbnb;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: $secondaryTitleColor;
+    margin: 0 0 10px;
+  }
+
+  &__title {
+    font-family: $EksellDisplay;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 52px;
+    line-height: 60px;
+    text-transform: capitalize;
+    color: $titleBlueDarkColor;
+    width: 409px;
+    margin: 0 0 30px;
+  }
+
+  &__button {
+    width: 170px;
+    height: 60px;
+    font-family: $mainFontAirbnb;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}

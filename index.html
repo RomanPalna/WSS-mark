@@ -411,43 +411,107 @@
         />
       </section>
 
-      <section>
-        <div>
-          <p>Social Feed</p>
-          <h2>Check Our Instagram Profile</h2>
+      <section class="social">
+        <div class="social__container">
+          <div class="social__description">
+            <p class="social__subs">Social Feed</p>
+            <h2 class="social__title">Check Our Instagram Profile</h2>
+          </div>
+          <button type="button" class="button social__button">Follow Us</button>
         </div>
-        <button type="button">Follow Us</button>
+
+        <div class="social__instagram">
+          <img
+            src="/images/instagram/insta1.jpg"
+            alt="instagram foto"
+            class="social__instagram--img"
+          />
+
+          <img
+            src="/images/instagram/insta2.jpg"
+            alt="instagram foto"
+            class="social__instagram--img"
+          />
+
+          <img
+            src="/images/instagram/insta3.jpg"
+            alt="instagram foto"
+            class="social__instagram--img"
+          />
+
+          <img
+            src="/images/instagram/insta4.jpg"
+            alt="instagram foto"
+            class="social__instagram--img"
+          />
+
+          <img
+            src="/images/instagram/insta5.jpg"
+            alt="instagram foto"
+            class="social__instagram--img"
+          />
+        </div>
       </section>
 
-      <section>
-        <div>
-          <p>Contact Us</p>
-          <h2>Do You Have Any Questions?</h2>
+      <section class="contact">
+        <div class="contact__description">
+          <p class="contact__subs">Contact Us</p>
+          <h2 class="contact__title">Do You Have Any Questions?</h2>
+          <button type="button" class="button contact__button">
+            Contact Us
+          </button>
         </div>
-        <button>Contact Us</button>
       </section>
     </main>
 
-    <footer>
-      <div>
-        <p>TrioGoal.</p>
+    <footer class="footer">
+      <div class="header footer__container">
+        <svg class="header__logo">
+          <use href="./icons/symbol-defs.svg#icon-Logo"></use>
+        </svg>
+
         <nav>
-          <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Packages</a></li>
-            <li><a href="">Contact Us</a></li>
-            <li><a href="">FAQ</a></li>
+          <ul class="header__nav">
+            <li class="header__nav--item">
+              <a href="" class="header__link">Home</a>
+            </li>
+            <li class="header__nav--item">
+              <a href="" class="header__link">About</a>
+            </li>
+            <li class="header__nav--item">
+              <a href="" class="header__link">Packages</a>
+            </li>
+            <li class="header__nav--item">
+              <a href="" class="header__link">Contact Us</a>
+            </li>
+            <li class="header__nav--item">
+              <a href="" class="header__link">FAQ</a>
+            </li>
           </ul>
         </nav>
 
-        <ul>
-          <li><a href="">Facebook</a></li>
-          <li><a href="">Instagram</a></li>
-          <li><a href="">Printrest</a></li>
+        <ul class="footer__social">
+          <li class="footer__social--item">
+            <a href=""
+              ><svg class="footer__social--svg">
+                <use href="./icons/symbol-defs.svg#icon-facebook"></use></svg
+            ></a>
+          </li>
+          <li class="footer__social--item">
+            <a href=""
+              ><svg class="footer__social--svg">
+                <use href="./icons/symbol-defs.svg#icon-instagram"></use></svg
+            ></a>
+          </li>
+          <li class="footer__social--item">
+            <a href=""
+              ><svg class="footer__social--svg">
+                <use href="./icons/symbol-defs.svg#icon-Printerst"></use></svg
+            ></a>
+          </li>
         </ul>
       </div>
-      <p>© 2021. All copyrights reserved by RH Agency</p>
+      <p class="footer__credit">© 2021. All copyrights reserved by RH Agency</p>
     </footer>
   </body>
 </html>
