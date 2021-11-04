@@ -64,6 +64,18 @@
     font-size: 16px;
     line-height: 20px;
   }
+
+  &__playButton {
+    position: absolute;
+    top: 42%;
+    left: 13%;
+
+    &:focus,
+    &:hover {
+      transform: scale(1.2);
+      transition: transform 500ms $animationTimingFunction;
+    }
+  }
 }
 
 .guidline__subscription {

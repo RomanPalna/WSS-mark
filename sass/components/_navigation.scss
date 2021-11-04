@@ -41,9 +41,13 @@
     margin-top: 15px;
   }
 
-  &__button--svg:hover,
-  &__button--svg:focus {
-    color: $mainBlueColor;
+  &__button--svg {
+    fill: currentColor;
+
+    &:hover,
+    &:focus {
+      fill: $mainBlueColor;
+    }
   }
 
   &__label {

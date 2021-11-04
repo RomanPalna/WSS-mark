@@ -33,11 +33,89 @@
             </li>
           </ul>
         </nav>
-        <button type="button" class="button">Register</button>
+        <button type="button" class="button" data-open-modal>Register</button>
       </div>
     </header>
 
     <main>
+      <section class="backdrop is-hidden" data-backdrop>
+        <div class="modal">
+          <button class="modal__close" data-close-modal></button>
+
+          <p class="modal__title">Leave your details, we will call you back</p>
+
+          <ul class="modal__list">
+            <li class="modal__item">
+              <input
+                type="text"
+                id="name"
+                name="name"
+                class="modal__input"
+                placeholder=" "
+              />
+              <label for="name" class="modal__label">Name</label>
+
+              <svg class="modal__icon">
+                <use href="./icons/modal-icons.svg#person"></use>
+              </svg>
+            </li>
+
+            <li class="modal__item">
+              <input
+                type="tel"
+                id="tel"
+                name="tel"
+                class="modal__input"
+                placeholder=" "
+              />
+              <label for="tel" class="modal__label">Phone</label>
+              <svg class="modal__icon">
+                <use href="./icons/modal-icons.svg#phone"></use>
+              </svg>
+            </li>
+
+            <li class="modal__item">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                class="modal__input"
+                placeholder=" "
+              />
+              <label for="email" class="modal__label">E-Mail</label>
+              <svg class="modal__icon">
+                <use href="./icons/modal-icons.svg#email"></use>
+              </svg>
+            </li>
+
+            <li class="modal__item">
+              <textarea
+                name="comment"
+                id="comment"
+                class="modal__comment"
+                placeholder=" "
+              ></textarea>
+              <label for="comment" class="modal__comment-label">Comment</label>
+            </li>
+
+            <li class="modal__item">
+              <label class="modal__accept">
+                <input
+                  type="checkbox"
+                  name="policy"
+                  value="accept_policy"
+                  class="modal__policy"
+                />
+                <span class="modal__policy-icon"></span>
+                I agree to the newsletter and accept the
+                <a href="" class="modal__item--link">Terms and Conditions</a>
+              </label>
+            </li>
+          </ul>
+          <button class="modal__button">Send</button>
+        </div>
+      </section>
+
       <section class="hero" id="home">
         <div class="hero__imgset">
           <img
@@ -123,12 +201,9 @@
             </datalist>
           </label>
 
-          <button type="Submit" class="button navigation__button">
-            <svg width="22" height="24">
-              <use
-                class="navigation__button--svg"
-                href="./icons/symbol-defs.svg#icon-booknow"
-              ></use>
+          <button type="submit" class="button navigation__button">
+            <svg class="navigation__button--svg" width="22" height="24">
+              <use href="./icons/symbol-defs.svg#icon-booknow"></use>
             </svg>
             <span class="navigation__button--text">Book Now</span>
           </button>
@@ -147,9 +222,8 @@
 
         <ul class="perfection__list">
           <li class="perfection__list--item">
-            <svg class="perfection__list--svg">
-              <use href="./icons/symbol-defs.svg#icon-Chat"></use>
-            </svg>
+            <img src="./icons/Chat.png" class="perfection__list--svg" />
+
             <div class="perfection__list--discription">
               <h3 class="perfection__list--title">
                 Tell us what you want to do
@@ -160,9 +234,8 @@
             </div>
           </li>
           <li class="perfection__list--item">
-            <svg class="perfection__list--svg">
-              <use href="./icons/symbol-defs.svg#icon-Calendar"></use>
-            </svg>
+            <img src="./icons/Calendar.png" class="perfection__list--svg" />
+
             <h3 class="perfection__list--title">
               Share your travel preference
             </h3>
@@ -171,9 +244,8 @@
             </p>
           </li>
           <li class="perfection__list--item">
-            <svg class="perfection__list--svg">
-              <use href="./icons/symbol-defs.svg#icon-bigStars"></use>
-            </svg>
+            <img src="./icons/Star.png" class="perfection__list--svg" />
+
             <h3 class="perfection__list--title">
               We’ll give you recommendations
             </h3>
@@ -301,6 +373,11 @@
           src="./images/background3.svg"
           alt="background3"
           class="guideline__background--3"
+        />
+        <img
+          src="./icons/play.png"
+          alt="play button"
+          class="guideline__playButton"
         />
       </section>
 
@@ -513,5 +590,6 @@
       </div>
       <p class="footer__credit">© 2021. All copyrights reserved by RH Agency</p>
     </footer>
+    <script src="./js/main.js"></script>
   </body>
 </html>
