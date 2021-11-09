@@ -1,6 +1,7 @@
 header {
   position: fixed;
   width: 1440px;
+
   top: 0;
   left: 50%;
   transform: translate(-50%);
@@ -10,10 +11,10 @@ header {
 
 .header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 
-  padding: 25px 0;
+  padding: 25px 135px;
 
   margin: 0 auto;
   border-bottom: 1px solid #ececec;
@@ -25,7 +26,8 @@ header {
 
   &__nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-left: 75px;
   }
 
   &__link {
@@ -44,6 +46,6 @@ header {
   }
 
   &__nav--item:not(:last-child) {
-    margin-right: 40px;
+    margin-right: 48px;
   }
 }

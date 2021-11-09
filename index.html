@@ -5,7 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TripGoal</title>
+       <!-- <link rel="stylesheet" type="text/css" href="./js/slick-1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="./js/slick-1.8.1/slick/slick-theme.css"/> -->
     <link rel="stylesheet" href="./css/main.min.css" />
+ 
+    
+
+  
   </head>
   <body>
     <header>
@@ -135,7 +141,7 @@
         <div class="hero__discription">
           <p class="hero__text">Book Now</p>
           <h1 class="hero__title">
-            Let’s Enjoy Your Trip with TripGoal
+            Let’s Enjoy Your Trip </br> with TripGoal
             <svg class="hero__svg">
               <use href="./icons/symbol-defs.svg#icon-rocket"></use>
             </svg>
@@ -268,21 +274,21 @@
             </p>
 
             <div class="location__group--button">
-              <button class="button location__button" type="button">
-                <svg width="9" height="16">
+              <button class="button location__button " id="slick-prev" type="button">&larr;
+                <!-- <svg width="9" height="16">
                   <use href="./icons/symbol-defs.svg#icon-arrowLeft"></use>
-                </svg>
+                </svg> -->
               </button>
-              <button class="button location__button" type="button">
-                <svg width="9" height="16">
-                  <use href="./icons/symbol-defs.svg#icon-arrowRight"></use>
+              <button class="button location__button " id="slick-next" type="button">&rarr;
+                <!-- <svg width="9" height="16">
+                  <use href="./icons/symbol-defs.svg#icon-arrowRight"></use> -->
                 </svg>
               </button>
             </div>
           </div>
         </div>
 
-        <ul class="location__slides">
+        <ul class="location__slides" >
           <li class="location__slides--item">
             <img
               src="./images/slide1.jpg"
@@ -325,6 +331,26 @@
             </div>
           </li>
           <li class="location__slides--item">
+            <img
+              src="./images/slide3.jpg"
+              alt="Slide 3"
+              class="location__slides--img"
+            />
+            <div class="location__slides--discr">
+              <div>
+                <p class="location__slides--name">Bali Handara Gate</p>
+                <p class="location__slides--place">Indonesia</p>
+              </div>
+              <div>
+                <svg width="88" height="15">
+                  <use href="./icons/symbol-defs.svg#icon-rating"></use>
+                </svg>
+                <p class="location__slides--cost">$1200</p>
+              </div>
+            </div>
+          </li>
+
+           <li class="location__slides--item">
             <img
               src="./images/slide3.jpg"
               alt="Slide 3"
@@ -590,6 +616,34 @@
       </div>
       <p class="footer__credit">© 2021. All copyrights reserved by RH Agency</p>
     </footer>
-    <script src="./js/main.js"></script>
+    <script src="./js/modal.js"></script>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="./js/slick-1.8.1/slick/slick.min.js"></script>
+
+<script type="text/javascript">
+  $(document).ready(function(){
+  $('.location__slides').slick({
+  infinite: true,
+  slidesToShow: 3,
+  slidesToScroll: 3,
+
+  nextArrow: document.querySelector('#slick-prev'),
+prevArrow: document.querySelector('#slick-next')
+  });
+});
+
+</script>
+
+
+  
+   
+
+
+
   </body>
 </html>
+  

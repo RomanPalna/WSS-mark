@@ -1,18 +1,15 @@
 .hero {
   display: flex;
   margin-top: 100px;
-  padding-top: 30px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 40px 0 213px;
   background-color: $backgroundColor;
-  height: 803px;
 
   &__imgset {
     display: flex;
     position: relative;
-    max-width: 569px;
-    max-height: 597px;
-    padding-left: 135px;
+    // max-width: 569px;
+    // max-height: 597px;
+    padding-left: 116px;
     padding-right: 35px;
   }
 
@@ -24,14 +21,14 @@
   }
 
   &__img:not(:last-child) {
-    height: 540px;
-    width: 712px;
+    width: 1130px;
   }
 
   &__img--first {
     position: absolute;
-    left: 340px;
-    top: 180px;
+    left: 383px;
+    top: 188px;
+    width: 360px;
   }
 
   &__text {
@@ -41,9 +38,7 @@
     font-size: 16px;
     line-height: 18px;
     color: $secondaryTitleColor;
-
-    padding-top: 135px;
-    margin-bottom: 16px;
+    margin-bottom: 15px;
     margin-top: 0px;
   }
 
@@ -63,6 +58,7 @@
     font-size: 16px;
     line-height: 28px;
     color: #697687;
+    margin: 0 0 15px;
   }
 
   &__svg {
@@ -72,7 +68,8 @@
   }
 
   &__discription {
-    padding-left: 247px;
+    padding-top: 111px;
+    padding-left: 209px;
     padding-right: 135px;
   }
 
