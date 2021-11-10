@@ -7,8 +7,6 @@
   &__imgset {
     display: flex;
     position: relative;
-    // max-width: 569px;
-    // max-height: 597px;
     padding-left: 116px;
     padding-right: 35px;
   }
@@ -84,5 +82,14 @@
 
     width: 170px;
     height: 60px;
+  }
+}
+
+@media screen and (max-width: $mobile) {
+  .hero {
+    display: block;
+
+    margin: 100px auto 0;
+    position: relative;
   }
 }

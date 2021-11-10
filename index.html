@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TripGoal</title>
-       <!-- <link rel="stylesheet" type="text/css" href="./js/slick-1.8.1/slick/slick.css"/>
-  <link rel="stylesheet" type="text/css" href="./js/slick-1.8.1/slick/slick-theme.css"/> -->
+       <link rel="stylesheet" type="text/css" href="./js/slick-1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="./js/slick-1.8.1/slick/slick-theme.css"/>
     <link rel="stylesheet" href="./css/main.min.css" />
  
     
@@ -20,7 +20,17 @@
           <use href="./icons/symbol-defs.svg#icon-Logo"></use>
         </svg>
 
-        <nav>
+         <button type="button" class="menu__button--open menu__button" aria-expanded="false" data-menu-button>
+          <svg width="40" height="40" aria-label="Переключатель меню">
+            <use class="icon-menu" href="./icons/menu-close.svg#menu"></use>
+            <use class="icon-close" href="./icons/menu-close.svg#close"></use>
+          </svg>
+         
+        </button>
+        
+
+        <div class="menu__select" data-menu>
+        <nav class="menu__nav" >
           <ul class="header__nav">
             <li class="header__nav--item">
               <a href="#home" class="header__link">Home</a>
@@ -39,7 +49,9 @@
             </li>
           </ul>
         </nav>
-        <button type="button" class="button" data-open-modal>Register</button>
+        </div>
+
+        <button type="button header__button" class="button" data-open-modal>Register</button>
       </div>
     </header>
 
@@ -131,7 +143,7 @@
           />
           <img
             src="./images/HeaderImage1.jpg"
-            alt="header smage 2"
+            alt="header Image 2"
             class="hero__img hero__img--first"
             width="320"
             height="430"
@@ -624,24 +636,8 @@
   <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="./js/slick-1.8.1/slick/slick.min.js"></script>
 
-<script type="text/javascript">
-  $(document).ready(function(){
-  $('.location__slides').slick({
-  infinite: true,
-  slidesToShow: 3,
-  slidesToScroll: 3,
-
-  nextArrow: document.querySelector('#slick-prev'),
-prevArrow: document.querySelector('#slick-next')
-  });
-});
-
-</script>
-
-
-  
-   
-
+<script src="./js/slick-init.js"></script>
+<script src="./js/header-menu.js"></script>
 
 
   </body>
