@@ -8,3 +8,18 @@ $(document).ready(function () {
     prevArrow: document.querySelector('#slick-next'),
   });
 });
+
+// customer__quote--slider
+
+$(document).ready(function () {
+  $('.customer__quote--slider').slick({
+    infinite: true,
+    nextArrow: false,
+    prevArrow: false,
+    slidesToShow: 1,
+    dots: true,
+    customPaging: function (slider, i) {
+      return '<div class="custom-slick-dots" id=' + i + '></div>';
+    },
+  });
+});

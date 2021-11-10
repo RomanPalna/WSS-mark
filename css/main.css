@@ -1436,7 +1436,7 @@ header {
   border-radius: 10px;
   text-align: center;
   margin: 0 auto;
-  padding: 80px 50px 30px;
+  padding: 0 50px 30px;
 }
 .customer__quote--text {
   position: relative;
@@ -1447,15 +1447,6 @@ header {
   line-height: 24px;
   color: #697687;
   margin: 0 0 14px;
-}
-.customer__quote--text::before {
-  content: "";
-  position: absolute;
-  width: 30px;
-  height: 30px;
-  background-image: url(../../icons/quotation.svg);
-  left: 47%;
-  bottom: 85px;
 }
 .customer__quote--name {
   position: relative;
@@ -1486,28 +1477,6 @@ header {
   line-height: 14px;
   color: #697687;
   margin: 0;
-}
-.customer__quote::before {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 20px;
-  height: 6px;
-  border-radius: 6px;
-  background-color: #3685fb;
-  bottom: -10%;
-  left: 50%;
-}
-.customer__quote::after {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 6px;
-  height: 6px;
-  background: rgba(105, 118, 135, 0.3);
-  border-radius: 6px;
-  bottom: -10%;
-  left: 48%;
 }
 .customer__image--1 {
   position: absolute;
@@ -1604,6 +1573,42 @@ header {
   border-radius: 100px;
   right: 86.48%;
   top: 70.62%;
+}
+
+.slick-dots {
+  bottom: -30%;
+  margin: 0 auto;
+}
+
+.slick-active .custom-slick-dots {
+  width: 20px;
+  height: 6px;
+  border-radius: 6px;
+  background-color: #3685fb;
+}
+
+.custom-slick-dots {
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 6px;
+  height: 6px;
+  background: rgba(105, 118, 135, 0.3);
+  border-radius: 6px;
+  bottom: -30%;
+}
+
+.customer__quote--item {
+  margin-top: 80px;
+}
+
+.customer__quote::before {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-image: url(../../icons/quotation.svg);
+  left: 46%;
+  bottom: 166px;
 }
 
 .social {
