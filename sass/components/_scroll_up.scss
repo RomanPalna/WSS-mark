@@ -1,0 +1,28 @@
+.scrollup {
+  position: fixed;
+  color: #fff;
+  background-color: $mainBlueColor;
+  right: 20px;
+  bottom: 0px;
+  padding: 4px 10px;
+  font-size: 20px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  opacity: 1;
+  text-align: center;
+
+  &:hover {
+    background-color: $secondaryBackgroundColor;
+    border: 1px solid $mainBlueColor;
+  }
+
+  &-svg {
+    width: 30px;
+    height: 40px;
+    fill: white;
+
+    &:hover {
+      fill: $mainBlueColor;
+    }
+  }
+}
