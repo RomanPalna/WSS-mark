@@ -14,8 +14,7 @@ $(document).ready(function () {
 $(document).ready(function () {
   $('.customer__quote--slider').slick({
     infinite: true,
-    nextArrow: false,
-    prevArrow: false,
+    arrows: false,
     slidesToShow: 1,
     dots: true,
     customPaging: function (slider, i) {
