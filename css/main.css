@@ -1818,7 +1818,7 @@ header {
   display: none;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 319px) {
   .menu__button {
     display: none;
   }
