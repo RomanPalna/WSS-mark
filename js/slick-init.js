@@ -1,4 +1,9 @@
 $(document).ready(function () {
+  locationSlider();
+  customerSlider();
+});
+
+function locationSlider() {
   $('.location__slides').slick({
     infinite: true,
     slidesToShow: 3,
@@ -7,11 +12,9 @@ $(document).ready(function () {
     nextArrow: document.querySelector('#slick-prev'),
     prevArrow: document.querySelector('#slick-next'),
   });
-});
+}
 
-// customer__quote--slider
-
-$(document).ready(function () {
+function customerSlider() {
   $('.customer__quote--slider').slick({
     infinite: true,
     arrows: false,
@@ -21,4 +24,4 @@ $(document).ready(function () {
       return '<div class="custom-slick-dots" id=' + i + '></div>';
     },
   });
-});
+}
