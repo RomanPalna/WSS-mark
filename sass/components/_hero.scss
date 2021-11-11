@@ -88,7 +88,45 @@
 @media screen and (max-width: 768px) {
   .hero {
     display: block;
-    margin: 100px auto 0;
+    margin: 80px auto 0;
     position: relative;
+    padding: 0 135px 100px;
+
+    &__imgset {
+      padding: 0;
+    }
+
+    &__img {
+      margin: 0 auto;
+
+      &--first {
+        top: 35%;
+        left: 51%;
+        width: 40%;
+      }
+    }
+
+    &__img:not(:last-child) {
+      max-width: 60%;
+    }
+
+    &__discription {
+      padding: 30px 0 0;
+      text-align: center;
+    }
+
+    &__text {
+      font-size: 25px;
+      margin-bottom: 25px;
+    }
+
+    &__title {
+      margin-bottom: 25px;
+    }
+
+    &__subs {
+      font-size: 25px;
+      margin-bottom: 25px;
+    }
   }
 }

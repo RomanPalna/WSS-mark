@@ -1,7 +1,6 @@
 header {
   position: fixed;
   width: 1440px;
-
   top: 0;
   left: 50%;
   transform: translate(-50%);
@@ -50,6 +49,9 @@ header {
 }
 
 @media screen and (max-width: $tablet) {
+  header {
+    width: -webkit-fill-available;
+  }
   .header {
     position: relative;
     justify-content: space-evenly;
