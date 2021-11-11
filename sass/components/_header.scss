@@ -49,7 +49,7 @@ header {
   }
 }
 
-@media screen and (max-width: $mobile) {
+@media screen and (max-width: $tablet) {
   .header {
     position: relative;
     justify-content: space-evenly;

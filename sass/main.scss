@@ -1,7 +1,9 @@
-@import './utils/base';
 @import './utils/normalize';
-@import './utils/variables';
 @import './utils/breakpoints.scss';
+@import './utils/base';
+
+@import './utils/variables';
+
 @import './components/modal';
 @import './components/body';
 @import './components/button';
