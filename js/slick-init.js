@@ -9,8 +9,8 @@ function locationSlider() {
     slidesToShow: 3,
     slidesToScroll: 3,
 
-    nextArrow: document.querySelector('#slick-prev'),
-    prevArrow: document.querySelector('#slick-next'),
+    nextArrow: document.querySelector('#slick-next'),
+    prevArrow: document.querySelector('#slick-prev'),
   });
 }
 
