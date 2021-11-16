@@ -1,6 +1,8 @@
 header {
   position: fixed;
-  width: 1440px;
+  width: 100%;
+  max-width: $desktop;
+
   top: 0;
   left: 50%;
   transform: translate(-50%);
@@ -50,12 +52,12 @@ header {
 
 @media screen and (max-width: $tablet) {
   header {
-    width: -webkit-fill-available;
+    max-width: $tablet;
   }
   .header {
     position: relative;
     justify-content: space-evenly;
-
+    padding: 25px 15px;
     &__button {
       width: 170px;
       height: 60px;

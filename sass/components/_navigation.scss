@@ -83,3 +83,40 @@
     width: 160px;
   }
 }
+
+@media screen and (max-width: $tablet) {
+  .navigation {
+    position: unset;
+
+    max-width: $tablet;
+    height: auto;
+
+    &__form {
+      padding: 25px 15px;
+      position: unset;
+      display: flex;
+      flex-direction: column;
+      max-width: $tablet;
+      height: 100%;
+    }
+
+    &__label:not(:last-child) {
+      margin: 0 auto 15px;
+    }
+
+    &__button {
+      width: 340px;
+      height: 125px;
+
+      border-bottom-left-radius: inherit;
+      border-top-left-radius: 0;
+      border-bottom-right-radius: inherit;
+      border-top-right-radius: 0;
+    }
+
+    &__label:after {
+      top: 0;
+      left: -29px;
+    }
+  }
+}

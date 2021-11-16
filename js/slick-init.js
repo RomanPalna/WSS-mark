@@ -11,6 +11,16 @@ function locationSlider() {
 
     nextArrow: document.querySelector('#slick-next'),
     prevArrow: document.querySelector('#slick-prev'),
+    mobileFirst: true,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   });
 }
 
