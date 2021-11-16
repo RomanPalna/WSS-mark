@@ -1421,6 +1421,20 @@ header {
   margin: 0 0 10px 0;
 }
 
+@media screen and (max-width: 768px) {
+  .guideline__section {
+    text-align: end;
+    right: 30px;
+    top: 315px;
+  }
+  .guideline__background--2 {
+    width: 612px;
+    height: 1047px;
+    overflow: overlay;
+    top: 0;
+    right: 0;
+  }
+}
 .family {
   display: -webkit-box;
   display: -ms-flexbox;

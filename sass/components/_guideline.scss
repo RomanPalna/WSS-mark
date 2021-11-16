@@ -88,3 +88,20 @@
 
   margin: 0 0 10px 0;
 }
+
+@media screen and (max-width: $tablet) {
+  .guideline {
+    &__section {
+      text-align: end;
+      right: 30px;
+      top: 315px;
+    }
+    &__background--2 {
+      width: 612px;
+      height: 1047px;
+      overflow: overlay;
+      top: 0;
+      right: 0;
+    }
+  }
+}
