@@ -104,3 +104,20 @@
     }
   }
 }
+
+@media screen and (max-width: $tablet) {
+  .family {
+    &__imgset {
+      display: none;
+    }
+
+    &__about {
+      width: 100%;
+      text-align: center;
+    }
+
+    &__statistic {
+      margin: 0 auto;
+    }
+  }
+}
