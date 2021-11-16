@@ -6,13 +6,18 @@ $(document).ready(function () {
 function locationSlider() {
   $('.location__slides').slick({
     infinite: true,
-    slidesToShow: 3,
-    slidesToScroll: 3,
 
     nextArrow: document.querySelector('#slick-next'),
     prevArrow: document.querySelector('#slick-prev'),
     mobileFirst: true,
     responsive: [
+      {
+        breakpoint: 1440,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+        },
+      },
       {
         breakpoint: 768,
         settings: {
