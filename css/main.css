@@ -1783,6 +1783,31 @@ header {
   bottom: 166px;
 }
 
+@media screen and (max-width: 768px) {
+  .customer {
+    background-position: bottom 98px center;
+  }
+  .customer__image--1 {
+    right: 4%;
+    top: 76.85%;
+  }
+  .customer__image--3 {
+    right: 12.16%;
+    top: 42.77%;
+  }
+  .customer__image--4 {
+    right: 43%;
+  }
+  .customer__image--5 {
+    right: 39%;
+  }
+  .customer__image--6 {
+    right: 90%;
+  }
+  .customer__image--7 {
+    top: 40.19%;
+  }
+}
 .social {
   padding: 120px 0;
   max-height: 898px;
