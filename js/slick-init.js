@@ -1,7 +1,6 @@
 $(document).ready(function () {
   locationSlider();
   customerSlider();
-
   if ($(window).width() <= 768) {
     instagramSlider();
   }
