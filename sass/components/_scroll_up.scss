@@ -12,7 +12,8 @@
   text-align: center;
   z-index: 8;
 
-  &:hover {
+  &:hover,
+  &:focus {
     background-color: $secondaryBackgroundColor;
     border: 1px solid $mainBlueColor;
   }
@@ -22,7 +23,8 @@
     height: 40px;
     fill: white;
 
-    &:hover {
+    &:hover,
+    &:focus {
       fill: $mainBlueColor;
     }
   }

@@ -58,7 +58,6 @@
   &__list--item {
     display: inline-block;
     width: 370px;
-    height: 395px;
     align-content: center;
 
     border: 2px solid #f8f8f8;
@@ -68,11 +67,10 @@
 
   &__list--svg {
     margin-top: 74px;
-    margin-left: 132px;
-    margin-right: 132px;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 50px;
     width: 105px;
-    height: 96px;
   }
 
   &__list--title {
@@ -83,10 +81,7 @@
     line-height: 28px;
     text-align: center;
     color: $titleBlueDarkColor;
-
-    margin-bottom: 20px;
-    margin-left: 46px;
-    margin-right: 46px;
+    margin: 0 46px 20px;
   }
 
   &__list--text {
@@ -99,9 +94,7 @@
     color: #697687;
 
     padding-bottom: 70px;
-    margin-top: 0;
-    margin-right: 46px;
-    margin-left: 46px;
+    margin: 0 46px;
   }
 
   &__list--discription {
@@ -149,16 +142,6 @@
         margin-left: auto;
         margin-right: auto;
       }
-
-      // &--title {
-      //   margin-left: auto;
-      //   margin-right: auto;
-      // }
-
-      // &--text {
-      //   margin-left: auto;
-      //   margin-right: auto;
-      // }
     }
   }
 }

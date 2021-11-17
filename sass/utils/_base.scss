@@ -47,3 +47,9 @@ input[type='number']::-webkit-inner-spin-button {
   appearance: none;
   margin: 0;
 }
+
+svg path {
+  stroke: inherit;
+  stroke-width: inherit;
+  fill: inherit;
+}

@@ -394,6 +394,12 @@ input[type=number]::-webkit-inner-spin-button {
   margin: 0;
 }
 
+svg path {
+  stroke: inherit;
+  stroke-width: inherit;
+  fill: inherit;
+}
+
 .backdrop {
   position: fixed;
   width: 100%;
@@ -1033,6 +1039,7 @@ header {
     border-top-left-radius: 0;
     border-bottom-right-radius: inherit;
     border-top-right-radius: 0;
+    background-image: url(../../icons/symbol-defs.svg#icon-booknow);
   }
   .navigation__label:after {
     top: 0;
@@ -1098,7 +1105,6 @@ header {
 .perfection__list--item {
   display: inline-block;
   width: 370px;
-  height: 395px;
   -ms-flex-line-pack: center;
       align-content: center;
   border: 2px solid #f8f8f8;
@@ -1108,11 +1114,10 @@ header {
 }
 .perfection__list--svg {
   margin-top: 74px;
-  margin-left: 132px;
-  margin-right: 132px;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 50px;
   width: 105px;
-  height: 96px;
 }
 .perfection__list--title {
   font-family: Airbnb Cereal App, Sans-Serif;
@@ -1122,9 +1127,7 @@ header {
   line-height: 28px;
   text-align: center;
   color: #002248;
-  margin-bottom: 20px;
-  margin-left: 46px;
-  margin-right: 46px;
+  margin: 0 46px 20px;
 }
 .perfection__list--text {
   font-family: Airbnb Cereal App, Sans-Serif;
@@ -1135,9 +1138,7 @@ header {
   text-align: center;
   color: #697687;
   padding-bottom: 70px;
-  margin-top: 0;
-  margin-right: 46px;
-  margin-left: 46px;
+  margin: 0 46px;
 }
 .perfection__list--discription {
   display: inline-block;
@@ -2098,7 +2099,7 @@ header {
   text-align: center;
   z-index: 8;
 }
-.scrollup:hover {
+.scrollup:hover, .scrollup:focus {
   background-color: #ffffff;
   border: 1px solid #3685fb;
 }
@@ -2107,6 +2108,6 @@ header {
   height: 40px;
   fill: white;
 }
-.scrollup-svg:hover {
+.scrollup-svg:hover, .scrollup-svg:focus {
   fill: #3685fb;
 }/*# sourceMappingURL=main.css.map */
