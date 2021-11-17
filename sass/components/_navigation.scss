@@ -35,19 +35,21 @@
     border-top-left-radius: 0;
     border-bottom-right-radius: inherit;
     border-top-right-radius: inherit;
+
+    background-image: url(../../icons/booknow.svg);
+    background-repeat: no-repeat;
+    background-position: center 34px;
+    background-size: 24px;
+    background-origin: border-box;
+
+    &:hover,
+    &:focus {
+      background-image: url(../../icons/booknow2.svg);
+    }
   }
 
   &__button--text {
     margin-top: 15px;
-  }
-
-  &__button--svg {
-    fill: currentColor;
-
-    &:hover,
-    &:focus {
-      fill: $mainBlueColor;
-    }
   }
 
   &__label {
@@ -112,8 +114,6 @@
       border-top-left-radius: 0;
       border-bottom-right-radius: inherit;
       border-top-right-radius: 0;
-
-      background-image: url(../../icons/symbol-defs.svg#icon-booknow);
     }
 
     &__label:after {

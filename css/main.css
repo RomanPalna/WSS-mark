@@ -967,15 +967,17 @@ header {
   border-top-left-radius: 0;
   border-bottom-right-radius: inherit;
   border-top-right-radius: inherit;
+  background-image: url(../../icons/booknow.svg);
+  background-repeat: no-repeat;
+  background-position: center 34px;
+  background-size: 24px;
+  background-origin: border-box;
+}
+.navigation__button:hover, .navigation__button:focus {
+  background-image: url(../../icons/booknow2.svg);
 }
 .navigation__button--text {
   margin-top: 15px;
-}
-.navigation__button--svg {
-  fill: currentColor;
-}
-.navigation__button--svg:hover, .navigation__button--svg:focus {
-  fill: #3685fb;
 }
 .navigation__label {
   font-family: Airbnb Cereal App, Sans-Serif;
@@ -1039,7 +1041,6 @@ header {
     border-top-left-radius: 0;
     border-bottom-right-radius: inherit;
     border-top-right-radius: 0;
-    background-image: url(../../icons/symbol-defs.svg#icon-booknow);
   }
   .navigation__label:after {
     top: 0;
