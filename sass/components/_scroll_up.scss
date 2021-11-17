@@ -10,6 +10,7 @@
   border-top-right-radius: 4px;
   opacity: 1;
   text-align: center;
+  z-index: 8;
 
   &:hover {
     background-color: $secondaryBackgroundColor;
