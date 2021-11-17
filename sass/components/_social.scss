@@ -77,3 +77,18 @@
     }
   }
 }
+
+@media screen and (max-width: $tablet) {
+  .social {
+    max-width: $tablet;
+    margin-left: auto;
+    margin-right: auto;
+
+    &__instagram {
+      padding: 10px 50px;
+    }
+  }
+  .social__img--none.slick-slide {
+    display: none;
+  }
+}

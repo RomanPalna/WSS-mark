@@ -1,6 +1,7 @@
 $(document).ready(function () {
   locationSlider();
   customerSlider();
+  instagramSlider();
 });
 
 function locationSlider() {
@@ -38,5 +39,27 @@ function customerSlider() {
     customPaging: function (slider, i) {
       return '<div class="custom-slick-dots" id=' + i + '></div>';
     },
+  });
+}
+
+function instagramSlider() {
+  $('.social__instagram').slick({
+    infinite: true,
+    arrows: false,
+    dots: false,
+    mobileFirst: true,
+    responsive: [
+      {
+        breakpoint: 1440,
+        settings: 'unslick',
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   });
 }

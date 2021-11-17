@@ -1888,6 +1888,20 @@ header {
   border-top-right-radius: 0;
 }
 
+@media screen and (max-width: 768px) {
+  .social {
+    max-width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .social__instagram {
+    padding: 10px 50px;
+  }
+
+  .social__img--none.slick-slide {
+    display: none;
+  }
+}
 .contact {
   padding: 50px 220px 100px;
 }
