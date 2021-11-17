@@ -880,7 +880,7 @@ header {
     display: block;
     margin: 80px auto 0;
     position: relative;
-    padding: 0 135px 100px;
+    padding: 45px 135px 100px;
   }
   .hero__imgset {
     padding: 0;
@@ -1006,6 +1006,7 @@ header {
 @media screen and (max-width: 768px) {
   .navigation {
     position: unset;
+    margin: 0 auto;
     max-width: 768px;
     height: auto;
   }
@@ -1304,6 +1305,7 @@ header {
   .location {
     max-width: 768px;
     height: 100%;
+    margin: 0 auto;
   }
   .location__container {
     text-align: center;
@@ -1893,9 +1895,7 @@ header {
     max-width: 768px;
     margin-left: auto;
     margin-right: auto;
-  }
-  .social__instagram {
-    padding: 10px 50px;
+    max-height: 100%;
   }
 
   .social__img--none.slick-slide {
@@ -1942,6 +1942,15 @@ header {
   line-height: 20px;
 }
 
+@media screen and (max-width: 768px) {
+  .contact {
+    padding: 40px 50px 100px;
+  }
+  .contact__description {
+    padding: 40px 70px 170px;
+    background-position: right 20px bottom;
+  }
+}
 .footer {
   display: -webkit-box;
   display: -ms-flexbox;

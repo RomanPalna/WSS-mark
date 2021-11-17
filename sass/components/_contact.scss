@@ -41,3 +41,14 @@
     line-height: 20px;
   }
 }
+
+@media screen and (max-width: $tablet) {
+  .contact {
+    padding: 40px 50px 100px;
+
+    &__description {
+      padding: 40px 70px 170px;
+      background-position: right 20px bottom;
+    }
+  }
+}

@@ -87,7 +87,7 @@
 @media screen and (max-width: $tablet) {
   .navigation {
     position: unset;
-
+    margin: 0 auto;
     max-width: $tablet;
     height: auto;
 

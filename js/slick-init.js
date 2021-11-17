@@ -1,7 +1,10 @@
 $(document).ready(function () {
   locationSlider();
   customerSlider();
-  instagramSlider();
+
+  if ($(window).width() <= 768) {
+    instagramSlider();
+  }
 });
 
 function locationSlider() {
@@ -47,19 +50,7 @@ function instagramSlider() {
     infinite: true,
     arrows: false,
     dots: false,
-    mobileFirst: true,
-    responsive: [
-      {
-        breakpoint: 1440,
-        settings: 'unslick',
-      },
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-    ],
+    slidesToShow: 1,
+    slidesToScroll: 1,
   });
 }
