@@ -173,53 +173,54 @@
      <section class="navigation">
         <form class="navigation__form">
           <label for="location" class="navigation__label"
-            >Location
-            <input
+            >
+            Location
+            
+            <select
               class="navigation__input"
               type="text"
-              list="location-choice"
               id="location"
               name="location"
-              placeholder="Select" />
-            <datalist id="location-choice">
-              <option value="Ukraine"></option>
-              <option value="Poland"></option>
-              <option value="France"></option></datalist
-          ></label>
+               >
+            
+              <option>Select</option>
+              <option>Ukraine</option>
+              <option>Poland</option>
+              <option>France</option>
+          </select>
+            </label>
 
           <label for="your-category" class="navigation__label">
             Your Category
-            <input
+            <select
               class="navigation__input"
               type="text"
               list="category-choice"
               id="your-category"
               name="category"
-              placeholder="Select"
-            />
-
-            <datalist id="category-choice">
-              <option value="Trip"></option>
-              <option value="Group Trip"></option>
-              <option value="World Tour"></option>
-            </datalist>
+            >
+              <option>Select</option>
+              <option>Trip</option>
+              <option>Group Trip</option>
+              <option>World Tour</option>
+            </select>
           </label>
 
           <label for="total-person" class="navigation__label"
             >Total Person
-            <input
+            <select
               class="navigation__input"
               type="number"
               list="person-list"
               id="total-person"
               name="total-person"
               placeholder="Select"
-            />
-            <datalist id="person-list">
-              <option value="1"></option>
-              <option value="2"></option>
-              <option value="4"></option>
-            </datalist>
+            >
+              <option>Select</option>
+              <option>2</option>
+              <option>4</option>
+              <option>6</option>
+        </select>
           </label>
 
           <button type="submit" class="button navigation__button">

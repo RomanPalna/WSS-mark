@@ -934,7 +934,6 @@ header {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   width: 980px;
-  height: 144px;
   background: #fcfcfc;
   -webkit-box-shadow: 0px 40px 170px rgba(0, 34, 72, 0.07);
           box-shadow: 0px 40px 170px rgba(0, 34, 72, 0.07);
@@ -986,7 +985,7 @@ header {
   font-size: 20px;
   line-height: 20px;
   color: #002248;
-  margin-bottom: 21px;
+  margin: auto 0 auto;
 }
 .navigation__label:first-child {
   margin-left: 72px;
@@ -1003,12 +1002,17 @@ header {
   border-radius: 8px;
   background-repeat: no-repeat;
   background-size: contain;
-  top: -20px;
+  top: -42px;
   left: -20px;
 }
 .navigation__input {
   border: none;
   width: 160px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  margin: 20px 0 0;
+  background-color: #fcfcfc;
 }
 
 @media screen and (max-width: 768px) {
