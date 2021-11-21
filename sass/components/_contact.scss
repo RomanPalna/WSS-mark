@@ -46,8 +46,12 @@
   .contact {
     padding: 40px 50px 100px;
 
+    &__title {
+      width: 100%;
+    }
+
     &__description {
-      padding: 40px 70px 170px;
+      padding: 15px 70px auto;
       background-position: right 20px bottom;
     }
   }
