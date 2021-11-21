@@ -237,11 +237,25 @@
 
 @media screen and (max-width: $tablet) {
   .customer {
+    padding: 50px 30px 200px;
     background-position: bottom 98px center;
+
+    &__quote {
+      padding: 0 50px 1px;
+
+      &::before {
+        top: 10%;
+      }
+    }
+
     &__image {
       &--1 {
-        right: 4%;
-        top: 76.85%;
+        right: 31%;
+        top: 79.85%;
+      }
+
+      &--2 {
+        display: none;
       }
 
       &--3 {
@@ -254,15 +268,19 @@
       }
 
       &--5 {
-        right: 39%;
+        right: 84%;
       }
 
       &--6 {
-        right: 90%;
+        display: none;
       }
 
       &--7 {
         top: 40.19%;
+      }
+
+      &--8 {
+        display: none;
       }
     }
   }

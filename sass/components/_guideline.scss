@@ -95,12 +95,19 @@
       text-align: end;
       right: 30px;
       top: 315px;
+      width: 90%;
+    }
+
+    &__playButton {
+      position: absolute;
+      top: 28%;
+      left: 34%;
     }
     &__background--2 {
-      width: 612px;
-      height: 1047px;
+      width: auto;
+      height: auto;
       overflow: overlay;
-      top: 0;
+      top: 64%;
       right: 0;
     }
   }

@@ -883,7 +883,7 @@ header {
     display: block;
     margin: 80px auto 0;
     position: relative;
-    padding: 45px 135px 100px;
+    padding: 45px 15px 50px;
   }
   .hero__imgset {
     padding: 0;
@@ -1151,7 +1151,7 @@ header {
     width: 100%;
   }
   .perfection__discription {
-    padding: 55px 100px;
+    padding: 55px 15px;
     margin: 0;
     height: auto;
   }
@@ -1163,7 +1163,7 @@ header {
   }
   .perfection__list {
     display: block;
-    padding: 0 100px;
+    padding: 0 15px;
   }
   .perfection__list--discription {
     display: block;
@@ -1309,6 +1309,7 @@ header {
     max-width: 768px;
     height: 100%;
     margin: 0 auto;
+    padding: 30px 15px;
   }
   .location__container {
     text-align: center;
@@ -1332,11 +1333,14 @@ header {
             align-items: center;
     width: 100%;
     height: 100%;
-    padding: 0 50px;
+    margin: 0 auto;
+  }
+  .location__slides--img {
+    width: 100%;
   }
   .location__slides--item {
-    margin: 0 auto;
-    width: 556px;
+    margin-left: auto;
+    max-width: 90%;
   }
   .location__slides--item:not(:last-child) {
     margin-right: 0;
@@ -1431,12 +1435,18 @@ header {
     text-align: end;
     right: 30px;
     top: 315px;
+    width: 90%;
+  }
+  .guideline__playButton {
+    position: absolute;
+    top: 28%;
+    left: 34%;
   }
   .guideline__background--2 {
-    width: 612px;
-    height: 1047px;
+    width: auto;
+    height: auto;
     overflow: overlay;
-    top: 0;
+    top: 64%;
     right: 0;
   }
 }
@@ -1793,11 +1803,21 @@ header {
 
 @media screen and (max-width: 768px) {
   .customer {
+    padding: 50px 30px 200px;
     background-position: bottom 98px center;
   }
+  .customer__quote {
+    padding: 0 50px 1px;
+  }
+  .customer__quote::before {
+    top: 10%;
+  }
   .customer__image--1 {
-    right: 4%;
-    top: 76.85%;
+    right: 31%;
+    top: 79.85%;
+  }
+  .customer__image--2 {
+    display: none;
   }
   .customer__image--3 {
     right: 12.16%;
@@ -1807,13 +1827,16 @@ header {
     right: 43%;
   }
   .customer__image--5 {
-    right: 39%;
+    right: 84%;
   }
   .customer__image--6 {
-    right: 90%;
+    display: none;
   }
   .customer__image--7 {
     top: 40.19%;
+  }
+  .customer__image--8 {
+    display: none;
   }
 }
 .social {
@@ -1902,6 +1925,7 @@ header {
     margin-left: auto;
     margin-right: auto;
     max-height: 100%;
+    padding: 120px 15px;
   }
 
   .social__img--none.slick-slide {
@@ -1909,7 +1933,7 @@ header {
   }
 }
 .contact {
-  padding: 50px 220px 100px;
+  margin: 50px 220px 100px;
 }
 .contact__description {
   padding: 70px 80px;
@@ -1950,14 +1974,15 @@ header {
 
 @media screen and (max-width: 768px) {
   .contact {
-    padding: 40px 50px 100px;
+    margin: 0;
+    padding: 40px 15px 100px;
   }
   .contact__title {
     width: 100%;
   }
   .contact__description {
-    padding: 15px 70px auto;
-    background-position: right 20px bottom;
+    padding: 15px 70px 350px;
+    background-position: right 0px bottom;
   }
 }
 .footer {
