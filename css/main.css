@@ -1974,8 +1974,7 @@ header {
 
 @media screen and (max-width: 768px) {
   .contact {
-    margin: 0;
-    padding: 40px 15px 100px;
+    margin: 40px 15px 100px;
   }
   .contact__title {
     width: 100%;
