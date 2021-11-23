@@ -36,7 +36,7 @@
 
   &__background--2 {
     position: absolute;
-    top: 0;
+    bottom: 0;
     right: 0;
     z-index: 1;
   }
@@ -107,8 +107,12 @@
       width: auto;
       height: auto;
       overflow: overlay;
-      top: 64%;
+
+      bottom: 0;
       right: 0;
+    }
+    &__background--3 {
+      top: 420px;
     }
   }
 }
