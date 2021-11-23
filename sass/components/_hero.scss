@@ -1,21 +1,22 @@
 .hero {
   display: flex;
   margin-top: 100px;
-  padding: 40px 0 213px;
+  padding: 40px 135px 213px;
   background-color: $backgroundColor;
 
   &__imgset {
     display: flex;
     position: relative;
-    padding-left: 116px;
-    padding-right: 35px;
+    margin: 0 213px 0 auto;
   }
 
   &__img {
     border: 10px solid $secondaryBackgroundColor;
     border-radius: 570px;
-    object-fit: cover;
+    object-fit: fill;
     top: 150px;
+    max-width: 400px;
+    max-height: 540px;
   }
 
   &__img:not(:last-child) {
@@ -24,9 +25,9 @@
 
   &__img--first {
     position: absolute;
-    left: 383px;
-    top: 188px;
-    width: 360px;
+    left: 50%;
+    top: 30%;
+    max-width: 320px;
   }
 
   &__text {
@@ -46,7 +47,7 @@
     font-weight: 550;
     font-size: 60px;
     line-height: 72px;
-    margin: 0;
+    margin: 0 0 20px;
   }
 
   &__subs {
@@ -56,7 +57,7 @@
     font-size: 16px;
     line-height: 28px;
     color: #697687;
-    margin: 0 0 15px;
+    margin: 0 0 50px;
   }
 
   &__svg {
@@ -66,9 +67,7 @@
   }
 
   &__discription {
-    padding-top: 111px;
-    padding-left: 209px;
-    padding-right: 135px;
+    margin: 135px auto;
   }
 
   &__button {

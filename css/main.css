@@ -802,7 +802,7 @@ header {
   display: -ms-flexbox;
   display: flex;
   margin-top: 100px;
-  padding: 40px 0 213px;
+  padding: 40px 135px 213px;
   background-color: #f8f8f8;
 }
 .hero__imgset {
@@ -810,24 +810,25 @@ header {
   display: -ms-flexbox;
   display: flex;
   position: relative;
-  padding-left: 116px;
-  padding-right: 35px;
+  margin: 0 213px 0 auto;
 }
 .hero__img {
   border: 10px solid #ffffff;
   border-radius: 570px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  -o-object-fit: fill;
+     object-fit: fill;
   top: 150px;
+  max-width: 400px;
+  max-height: 540px;
 }
 .hero__img:not(:last-child) {
   width: 1130px;
 }
 .hero__img--first {
   position: absolute;
-  left: 383px;
-  top: 188px;
-  width: 360px;
+  left: 50%;
+  top: 30%;
+  max-width: 320px;
 }
 .hero__text {
   font-family: Airbnb Cereal App, Sans-Serif;
@@ -845,7 +846,7 @@ header {
   font-weight: 550;
   font-size: 60px;
   line-height: 72px;
-  margin: 0;
+  margin: 0 0 20px;
 }
 .hero__subs {
   font-family: Airbnb Cereal App, Sans-Serif;
@@ -854,7 +855,7 @@ header {
   font-size: 16px;
   line-height: 28px;
   color: #697687;
-  margin: 0 0 15px;
+  margin: 0 0 50px;
 }
 .hero__svg {
   display: inline-block;
@@ -862,9 +863,7 @@ header {
   height: 41px;
 }
 .hero__discription {
-  padding-top: 111px;
-  padding-left: 209px;
-  padding-right: 135px;
+  margin: 135px auto;
 }
 .hero__button {
   font-family: Airbnb Cereal App, Sans-Serif;
@@ -920,7 +919,9 @@ header {
 }
 .navigation__form {
   position: relative;
-  left: 25%;
+  left: 50%;
+  -webkit-transform: translate(-25%);
+          transform: translate(-25%);
   top: -72px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1052,9 +1053,8 @@ header {
   padding-bottom: 120px;
 }
 .perfection__discription {
-  display: inline-block;
-  margin-left: 436px;
-  margin-right: 436px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .perfection__subs {
   font-family: Airbnb Cereal App, Sans-Serif;
@@ -1801,7 +1801,7 @@ header {
   height: 30px;
   background-image: url(../../icons/quotation.svg);
   left: 46%;
-  bottom: 166px;
+  bottom: 200px;
 }
 
 @media screen and (max-width: 768px) {
