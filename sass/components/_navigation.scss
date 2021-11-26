@@ -94,17 +94,16 @@
   .navigation {
     position: unset;
     margin: 0 auto;
+    padding: 25px 15px;
     max-width: $tablet;
     height: auto;
 
     &__form {
-      padding: 25px 15px;
       position: unset;
       display: flex;
       flex-direction: column;
       max-width: 100%;
-
-      height: 100%;
+      transform: translate(0);
     }
 
     &__label:not(:last-child) {
