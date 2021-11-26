@@ -897,7 +897,7 @@ header {
     width: 50%;
   }
   .hero__img:not(:last-child) {
-    max-width: 90%;
+    width: 90%;
   }
   .hero__discription {
     padding: 30px 0 0;
